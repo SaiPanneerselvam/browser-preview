@@ -1,0 +1,13 @@
+!lang BT
+MakeConst Name=scripts Data=findEvent="script written" in "VisualStudio.exe", catch Event scripts withEventData keypress, linedata As str;
+onEvent [findEvent="script written" in "VisualStudio.exe"] __Codewritten__ {
+  igniteviewer.showscripts;
+  start_job "definescripts";
+}
+Event definescripts As job {
+  if data As WebView uses WebView2 [peyar_sanskrit]
+    use data withEvents + yptr As int
+  if allif = balls∞gballs∞ {
+    mg_search repo_ext
+  }
+}
